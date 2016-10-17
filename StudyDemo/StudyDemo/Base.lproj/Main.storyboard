@@ -26,6 +26,12 @@
                                     </segue>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zk-xS-kdM">
+                                <rect key="frame" x="139" y="156" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pm1-hY-M8r">
                                 <rect key="frame" x="0.0" y="264" width="320" height="216"/>
                                 <connections>
@@ -38,7 +44,8 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="pickerView" destination="Pm1-hY-M8r" id="UhG-ze-unI"/>
+                        <outlet property="labelView" destination="6zk-xS-kdM" id="OS3-Ig-cwP"/>
+                        <outlet property="pickerView" destination="Pm1-hY-M8r" id="r1S-dV-vjR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
